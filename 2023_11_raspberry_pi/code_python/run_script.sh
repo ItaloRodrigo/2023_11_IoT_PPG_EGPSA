@@ -1,4 +1,7 @@
 #!/bin/bash
+source "/home/italo/Desktop"
+
+python3 $1
 
 python_status=$?
 
@@ -15,6 +18,3 @@ Time: $current_date"
 echo "$python_status"
 echo "$msg"
 
-source "/home/italo/Desktop"
-
-simulador_dispositivo_iot.py
