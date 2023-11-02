@@ -43,8 +43,8 @@ try:
             client.connect(broker, porta_broker, keep_alive_broker)
  
         # Gera temperatura e umidade aleatorias
-        temperatura = random.randint(20,25)
-        umidade = random.randint(50,60)
+        temperatura = random.randint(5,36)
+        umidade = random.randint(20,60)
         print ("Temperatura gerada: " + str(temperatura) + "C") 
         print ("Umidade gerada: " + str(umidade) + "%") 
             
