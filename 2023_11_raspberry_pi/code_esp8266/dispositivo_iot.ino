@@ -1,6 +1,6 @@
 /*
  * Programa: código-fonte do dispositivo IoT usado no curso
- * Autor: Pedro Bertoleti
+ * Autor: Ítalo Rodrigo
  */
 #include <stdio.h>
 #include <ESP8266WiFi.h>
