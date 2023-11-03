@@ -1,3 +1,4 @@
+import random
 import sys
 import requests
 import json
@@ -16,8 +17,8 @@ try:
     while True:
         
         data = [
-            {"variable": "temperatura","value": "50"},
-            {"variable": "umidade","value": "20"},
+            {"variable": "temperatura","value": random.randint(5,36)},
+            {"variable": "umidade","value": random.randint(5,36)},
         ]
     
         response = requests.post(url, headers=headers, json=data)
