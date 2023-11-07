@@ -1,5 +1,4 @@
 /*
- * Programa: código-fonte do dispositivo IoT usado no curso
  * Autor: Ítalo Rodrigo
  */
 #include <stdio.h>
