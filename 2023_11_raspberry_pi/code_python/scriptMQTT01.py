@@ -2,8 +2,6 @@
 #          Plataforma IoT usada: Tago.io
 #Autor: Ítalo Rodrigo
 #
-#Importante: rode o script utilizando Python 2.x:
-#python simulador_dispositivo_iot.py
 
 import paho.mqtt.client as mqtt
 import sys
@@ -31,7 +29,7 @@ def on_connect(client, userdata, flags, rc):
 # Programa principal
 try:
     print ("[STATUS] Inicializando MQTT...") 
-    client = mqtt.Client() #inicializa MQTT:
+    client = mqtt.Client('teste') #inicializa MQTT:
     client.username_pw_set(mqtt_username, mqtt_password)
     client.on_connect = on_connect
     client.connect(broker, porta_broker, keep_alive_broker)
