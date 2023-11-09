@@ -1,3 +1,6 @@
 import function as f
+import class_mqtt as mqtt
 
-f.execute(78)
+client = mqtt.Mqtt(20,5,30)
+
+client.main()
